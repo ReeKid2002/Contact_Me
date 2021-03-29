@@ -35,10 +35,10 @@ app.post('/',function(req,res){
     };
     var jsonData = JSON.stringify(data);
     const object = {
-        url: "https://us1.api.mailchimp.com/3.0/lists/5c31696c67",
+        url: "https://us1.api.mailchimp.com/3.0/lists/<List ID from Mailchimp>",
         method: "POST",
         headers: {
-            "Authorization": "authorization ca4e96277f236d11c8bd60cf7dd4c590-us1"
+            "Authorization": "authorization <API Key From Mailchimp>"
         },
         body: jsonData
     };
@@ -62,6 +62,3 @@ app.post('/failure',function(req,res){
 app.listen(PORT,function(){
     console.log(`Server Started at Port: ${PORT}`);
 });
-
-//Audiance ID: 5c31696c67
-//API KEY: ca4e96277f236d11c8bd60cf7dd4c590-us1
