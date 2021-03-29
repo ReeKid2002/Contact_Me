@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uh Oh!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="icon" href="../image/error.png">
+    <style>
+    body{
+        margin: 0;
+        padding: 0%;
+        background: url('../image/original.PNG') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .container1{
+        margin: 0 50px;
+        padding: 20px;
+    }
+    .container1 .heading{
+        font-family: 'Staatliches', cursive;
+        color: white;
+        font-size: 100px;
+        border-bottom: 8px solid white;
+    }
+    .container2{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-top: 180px;
+    }
+    .container2 .form .btn{
+        font-family: 'Staatliches', cursive;
+        text-align: center;
+        color: white;
+        border: 2px solid white; 
+        background: none;
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        transition-property: all;
+        transition-duration: 100ms;
+        transition-delay: 100ms;
+    }
+    .container2 .form .btn:hover{
+        border: 5px solid white;
+        font-size: 60px;
+    }
+</style>
+</head>
+<body>
+    <div class="container1">
+        <h1 class="heading">4 0 4</h1>
+    </div>
+    <div class="container2">
+        <form class="form" action="/failure" method="post">
+            <button class="btn" type="submit">Try Again</button>
+        </form>
+    </div>
+</body>
+</html>

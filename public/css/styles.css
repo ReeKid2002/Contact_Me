@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    border: 0;
+    /* background: black; */
+    background: url(../image/1625806_200x130.PNG) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px; */
+    display: grid;
+    place-items: center;
+}
+
+.heading{text-align: left;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    float: left;
+    border-bottom: 6px solid #30e3ca;
+    margin-bottom: 50px;
+    padding: auto;
+    /* border: 0%; */
+}
+
+.fn, .ln, .em, .tx{
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 2px solid #30e3ca;
+}
+.fn input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+
+.ln input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+
+.em input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+
+.tx textarea{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+.but{
+    padding: 20px 0;
+    margin: 10px;
+
+}
+
+.but .btn{
+    width: 400px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    outline: none;
+    background: none;
+    border: 2px solid #30e3ca;
+    cursor: pointer;
+    padding: 10px;
+}
